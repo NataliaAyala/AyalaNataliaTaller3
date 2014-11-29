@@ -225,15 +225,19 @@ function drop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("image");
     ev.target.appendChild(document.getElementById(data));
+    /*mapa();*/
 }
 
-//
-function canvas(ev) {
-    var c = document.getElementById("myCanvas");
-    var ctx = c.getContext("2d");
-    var img = document.getElementById("una");
-    ctx.drawImage(img,100,100);
-}
+
+
+
+//Pintaba la imagen en el canvas
+// function canvas(ev) {
+//     var c = document.getElementById("myCanvas");
+//     var ctx = c.getContext("2d");
+//     var img = document.getElementById("una");
+//     ctx.drawImage(img,100,100);
+// }
 
 
 

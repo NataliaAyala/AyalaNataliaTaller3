@@ -2,9 +2,7 @@
   include_once("includes/database.php");
 
   conectarse();
-
-  /*  
-   * Referencia: http://marcgrabanski.com/jquery-google-maps-tutorial-ajax-php-mysql/
+/*http://marcgrabanski.com/jquery-google-maps-tutorial-ajax-php-mysql/
   */
 
   $ip = $_SERVER['REMOTE_ADDR'];
